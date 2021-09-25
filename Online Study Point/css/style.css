@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+
+
+.nav-list{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    
+}
+
+.online{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.6rem;
+    text-align: left; 
+    margin-left: 2%;   
+}
+
+
+.nav-list li{
+    list-style: none;
+     
+    padding-top: 5px;
+    padding: 1.25%;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+   
+}
+
+.li-text{
+    font-size: 1.2rem;
+    font-family: montserrat-light;
+
+
+}
+
+.li-margin{
+    margin-left: auto;
+}
+
+.nav-list li a:hover{
+    color: gray;
+}
+
+
+
+.background{
+    background: rgba(0, 0, 0, 0) url('../image/title.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstsection{
+    height: 117vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 50%;
+    height: 57%;
+}
+
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.maintext{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.8rem;
+}
+
+.title-hr{
+    height: 2px;
+    border-width:0;
+    color:gray;
+    background-color: #ff4c68;
+    width: 12%;
+    position: relative;
+    left: 6px;
+    bottom: 10px;
+}
+
+
+
+.btn{
+    padding: 8px 20px;
+    margin: 10px 3px;    
+    border: 2px solid #ff4c68;
+    background: none;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 33%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 7px 50px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 1050px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+    .firstsection{
+        height: 220%;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 9px;
+    background-color:  #ff4c68;
+  }
+
+.card-black{
+    background-color: rgb(27 26 26);
+}
+
+.card-1{
+    padding-bottom: 9%;
+}
+
+.card-2{
+    padding-bottom: 5%;
+}
+
+.card-3{
+    padding-bottom: 7%;
+}
+
+.freeCourse-icon{
+    padding-top: 4%;
+    padding-left: 7%;
+}
+
+.freeCourse-text{
+    padding-top: 6%;
+    padding-left: 7%;
+    color: white;
+}
+
+.notes-text{
+    padding-top: 4%;
+    padding-left: 7%;
+    color: white;
+}
+
+.a-text{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.paidCourse-text{
+    padding-top: 2%;
+    padding-left: 7%;
+    color: white;
+}
+
+.square-hr{
+    height: 2px;
+    border-width:0;
+    margin-left: 7.2%;
+    color: white;
+    background-color: white;
+    width: 10%;
+}
+
+.notes-icon{
+    padding-top: 4%;
+    padding-left: 2%;
+    margin-left: 3%
+}
+
+.paidCourse-image{
+    padding-top: 0%;
+    padding-left: 1%;   
+}
+
+.hr-notes{
+    color: #ff4c68;
+    background-color: #ff4c68;
+}
+
+.notes-text-font{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.freeCourse-text:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+.notes-text:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+.paidCourse-text:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+
+
+#free-course{
+    padding-top: 3%;
+    background-color: white;    
+}
+.h1-free-course{
+    text-align: center;
+}
+
+
+.free-course-firsthalf{
+    text-align: center;
+}
+
+h2{
+    font-family: montserrat;
+    font-size: 2rem;
+}
+.free-course-firsthalf p{
+    color: gray;
+    font-family: montserrat;
+    font-size: 1.2rem;
+}
+
+.free-course-firsthalf em{
+    color: gray
+}
+
+
+.free-course-flex{
+    display: flex;
+    padding-top: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 5.2%;
+}
+
+.h1-free-course{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.1rem;
+    color: black
+
+    
+}
+
+.hr-free-course{
+    height: 2px;
+    border-width:0;
+    color:gray;
+    background-color: #ff4c68;
+    width: 12%;
+    margin-left: 44%;
+}
+
+#discribe-section{
+    padding-top: 5%;
+}
+
+.discribe{
+    padding-top: 2%;
+    font-family: Montserrat-black;
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 3.5rem;
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+}
+
+#notes-download{
+    padding-top: 0.7%;
+    background: rgba(0, 0, 0, 1) url('../image/light.jpg');
+}
+.h1-notes-download{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 2.1rem;
+    color: white;
+}
+.notes-download-para{
+    color: white;
+    text-align: center;
+}
+
+#Paid-course{
+    padding-top: 3%;
+    background-color: white;    
+}
+
+.Paid-course-flex{
+    display: flex;
+    width: 50%;
+}
+.Paid-course-div{
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+    text-align: center;
+}
+
+.Paid-course-div h2{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+.paid-course-para{
+    text-align: center;
+    padding-top: 1%;
+    font-family: Montserrat;
+    font-size: 21px;
+    color: gray;
+}
+
+.Footer{
+  background-color: black;
+  padding: 2% 2%;
+  text-align: center;
+}
+.Footer-text{
+    color: white;
+}
+.burger{
+ display: none;
+ position: absolute;
+ cursor: pointer;
+ right: 5%;
+ top: 15px;
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+}
+@media only screen and (max-width: 1050px){
+    .navbar{
+        background-color: black;
+        height: 189.9px;
+        transition: all 0.7s ease-out;
+    }
+    .nav-list{
+        align-items: center;
+    flex-direction: column;
+    }
+    .li-margin{
+        margin-left: 0%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav{
+        height: 51px;
+    }
+    .v-class{
+        opacity: 0;
+    }
+    .box-main{
+        flex-direction: column;
+        max-width: 100%;
+    }
+}
